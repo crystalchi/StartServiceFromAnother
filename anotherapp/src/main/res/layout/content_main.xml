@@ -10,12 +10,36 @@
         android:id="@+id/btn_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="启动service" />
+        android:text="跨应用启动service" />
 
     <Button
         android:id="@+id/btn_stop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="停止service" />
+        android:text="跨应用停止service" />
+
+    <Button
+        android:id="@+id/btn_bind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跨应用绑定service" />
+
+    <Button
+        android:id="@+id/btn_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跨应用不绑定service" />
+
+    <EditText
+        android:id="@+id/et_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="传递通信数据..."/>
+
+    <Button
+        android:id="@+id/btn_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="传递通信数据" />
 
 </LinearLayout>
